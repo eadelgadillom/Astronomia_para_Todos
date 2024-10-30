@@ -1,0 +1,133 @@
+\documentclass[12pt]{article}
+\usepackage[spanish]{babel}
+\usepackage{geometry}
+\usepackage{amsmath}
+\usepackage{authblk} % Paquete para manejar autores y afiliaciones en 'article'
+\usepackage{hyperref}
+\usepackage{fancyhdr} % Paquete para encabezados y pies de página
+\usepackage{colortbl} % Paquete para colorear celdas en tablas
+\usepackage{multirow} % Paquete para combinar filas en tablas
+\usepackage{booktabs} % Paquete para mejorar el aspecto de las tablas
+\usepackage{graphicx}
+
+% Quitar la sangría en todo el documento
+\setlength{\parindent}{0pt}
+
+\geometry{letterpaper, margin=1in}
+
+\title{\textbf{Astronomía para Todos}\\ \small Grupo 2\\ 2024-2}
+
+\author[1]{\raggedright Eduardo A. Delgadillo Monsalve}
+
+\affil[1]{\raggedright\small MSc estudiante - Astronomía (eadelgadillom@unal.edu.co) \newline \small Observatorio Astronómico Nacional, Universidad Nacional de Colombia}
+\date{}
+
+\pagestyle{fancy}
+\fancyhf{} % Limpia los encabezados y pies
+\fancyhead[L]{Astronomía para Todos 2024-II}
+\fancyhead[R]{\today}
+
+\begin{document}
+
+\maketitle
+\begin{flushright}
+    Somos polvo de estrellas, y somos una forma\\ de que el universo se conozca a si mismo.\\ Carl Sagan.
+\end{flushright}
+
+\section*{Información del curso}
+¡Bienvenidos al curso Astronomía para Todos, esperamos que encuentren útil esta asignatura!. No olviden visitar periódicamente el Google Classroom del curso para acceder al material y estar al tanto de las novedades. Pueden enviarnos sus comentarios mediante el medio de comunicación establecido en el curso (Correo institucional, Chat classroom).\\
+\\
+\textbf{Horario:} Martes y jueves 09:00 am - 11:00 am\\
+\textbf{Edificio:} Observatorio Astronómico Nacional, salón 116
+
+\section*{Calificaciones}
+\begin{itemize}
+    \item Talleres y Actividades: 50\%.
+    \item Proyecto final: .............25\%.
+    \item Asistencia: ...................15\%.
+    \item Autocalificación: ..........10\%.
+\end{itemize}
+
+Para los talleres, se organizarán grupos de al menos 3 personas (algunos podrían ser de hasta 5 personas, para cubrir la totalidad de estudiantes de forma adecuada). Para las sustentaciones los grupos se seleccionarán de forma aleatoria, y un integrante escogido por el docente hará la sustentación.
+
+\begin{table}[p]
+    \centering
+    \caption{Contenidos por semana}
+    \renewcommand{\arraystretch}{1.2} % Espaciado en las filas
+    \begin{tabular}{|c|c|p{20em}|c|}
+        \hline
+        \textbf{Semana} & \textbf{Tema} & \textbf{Contenido} & \textbf{Fecha} \\
+        \hline
+        1  & \multirow{4}{*}{Historia} & Presentación del curso & 29/10/2024 \\
+           &                           & Nuestro lugar en el universo & 31/10/2024 \\
+        \cline{1-1}\cline{3-4}    2  &                           & Astronomía en la historia & 5/11/2024 \\
+           &                           & Catálogo de estrellas & 7/11/2024 \\
+        \hline
+        3  & \multirow{4}{*}{Esfera Celeste} & Movimiento de la Tierra & 12/11/2024 \\
+           &                           & Observaciones en el cielo & 14/11/2024 \\
+        \cline{1-1}\cline{3-4}    4  &                           & Carta celeste & 19/11/2024 \\
+           &                           & Actividad 1 & 21/11/2024 \\
+        \hline
+        5  & \multirow{2}{*}{\shortstack{Mecánica\\Celeste}} & Leyes de Kepler & 26/11/2024 \\
+           &                           & Sustentación actividad 1 & 28/11/2024 \\
+        \hline
+        6  & \multirow{2}{*}{Sistema Solar} & Sol, planetas, cometas, Luna, eclipses & 3/12/2024 \\
+           &                           & Viajes, misiones, proyectos & 5/12/2024 \\
+        \hline
+        7  & \multirow{4}{*}{\shortstack{Técnicas\\Observacionales}} & Telescopios y espectro electromagnético & 10/12/2024 \\
+           &                           & Medio interestelar & 12/12/2024 \\
+        \cline{1-1}\cline{3-4}    8  &                           & Software & 17/12/2024 \\
+           &                           & Taller 1 & 19/12/2024 \\
+        \hline
+        \multicolumn{4}{|c|}{\textbf{Receso Fin de Año}} \\
+        \hline
+        9  & \multirow{4}{*}{Estrellas} & Formación & 13/01/2025 \\
+           &                           & Evolución & 15/01/2025 \\
+        \cline{1-1}\cline{3-4}    10 &                           & Muerte  & 20/01/2025 \\
+           &                           & Agujeros Negros - Actividad 2 & 22/01/2025 \\
+        \hline
+        11 & \multirow{2}{*}{Agujeros Negros} & Introducción Relatividad & 27/01/2025 \\
+           &                           & Fotografiando Sagitario A* & 29/01/2025 \\
+        \hline
+        12 &                           & Sustentación actividad 2 & 3/2/2025 \\
+           & \multirow{3}{*}{Galaxias} & Estructuras & 5/2/2025 \\
+        \cline{1-1}\cline{3-4}    13 &                           & Forma y expansión del universo & 10/2/2025 \\
+           &                           & Visita al Observatorio Astronómico Nacional & 12/2/2025 \\
+        \hline
+        14 & \multirow{2}{*}{\shortstack{Universo y\\Estructuras}} & Radiación Cósmica de Fondo & 17/02/2025 \\
+           &                           & Estructura & 19/02/2025 \\
+        \hline
+        15 & \multirow{2}{*}{Cosmología} & Modelo cosmológico & 24/02/2025 \\
+           &                           & Futuro del universo & 26/02/2025 \\
+        \hline
+        16 & \multirow{2}{*}{\shortstack{Finalización\\del Curso}} & Proyecto final & 3/3/2025 \\
+           &                           & Clase final & 5/3/2025 \\
+        \hline
+    \end{tabular}
+    \label{tab:contenido_semanal}
+\end{table}
+
+
+
+\section*{Referencias}
+\begin{itemize}
+    \item H. Karttunen, P. Kröger, H. Oja, M. Poutanen, y K. J. Donner, \textit{Fundamental Astronomy}. Springer, 6a ed., 2017.
+    \item B. W. Carroll y D. A. Ostlie, \textit{An Introduction to Modern Astrophysics}. Cambridge, 2a ed., 2017.
+    \item P. Jain, \textit{An Introduction to Astronomy and Astrophysics}. CRC, 1a ed., 2015.
+    \item J. G. Portilla, \textit{Astronomía para todos}. Universidad Nacional de Colombia, 2a ed., 2001.
+    \item J. G. Portilla, \textit{Elementos de astronomía de posición}. Universidad Nacional de Colombia, 1a ed., 2012.
+    \item M. Begelman y M. Rees, \textit{Gravity’s Fatal Attraction: Black Holes in the Universe}. Cambridge, 2a ed., 2010.
+    \item J. Wikilson, \textit{The Solar System in Close-Up}. Springer, 1a ed., 2016.
+\end{itemize}
+
+\section*{Aplicaciones recomendadas}
+\begin{itemize}
+    \item Stellarium (\url{https://stellarium.org/es/})
+    \item Aladin Sky Atlas (\url{http://aladin.u-strasbg.fr/})
+    \item SAOImageDS9 (\url{https://sites.google.com/cfa.harvard.edu/saoimageds9?pli=1})
+    \item TOPCAT (\url{http://www.star.bris.ac.uk/~mbt/topcat/})
+    \item Cartas celestes (\url{https://astroaficion.com/2013/03/25/cartas-celestes/})
+\end{itemize}
+
+
+\end{document}
