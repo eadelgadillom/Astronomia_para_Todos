@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1730305454.90758 "d:/GitHub/Astronomia_para_Todos/Syllabus/tesis.tex" "tesis.pdf" "tesis" 1730305457.39795 0
+["pdflatex"] 1738864363.40282 "d:/GitHub/Astronomia_para_Todos/Syllabus/tesis.tex" "tesis.pdf" "tesis" 1738864364.98382 0
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmbx12.tfm" 1136765053 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -87,10 +87,10 @@
   "C:/Program Files/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/eduar/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1718417326 380856 62aa705c9bef1c1bf1041bab7218dd03 ""
   "C:/Users/eduar/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1718417784 24254212 30cbd3c6f8d3aa4bac6e3199f1017276 ""
-  "d:/GitHub/Astronomia_para_Todos/Syllabus/tesis.tex" 1730305394 7368 6e6b1bbff3fb17bcf4ab6d86ba311941 ""
-  "tesis.aux" 1730305456 529 d80ad34be268668e5b9fa0d770460a89 "pdflatex"
-  "tesis.out" 1730305456 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "tesis.tex" 1730305394 7368 6e6b1bbff3fb17bcf4ab6d86ba311941 ""
+  "d:/GitHub/Astronomia_para_Todos/Syllabus/tesis.tex" 1738864362 7993 f1cd34d0c6d3d3c84faf984d14c76fa3 ""
+  "tesis.aux" 1738864364 567 6ecee315738f62ecd717b73d31d0cb26 "pdflatex"
+  "tesis.out" 1738864364 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "tesis.tex" 1738864362 7993 f1cd34d0c6d3d3c84faf984d14c76fa3 ""
   (generated)
   "tesis.aux"
   "tesis.log"
